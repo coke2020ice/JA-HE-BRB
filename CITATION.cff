@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using this reference implementation."
+title: "JA-HE-BRB reference implementation"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Ziqian
+  - family-names: Yang
+    given-names: Longhao
+  - family-names: Wang
+    given-names: Ying-Ming
+preferred-citation:
+  type: article
+  title: "Interpretable and privacy-preserving joint-antecedent belief rule learning in vertical federated learning with distributed labels"
+  authors:
+    - family-names: Lin
+      given-names: Ziqian
+    - family-names: Yang
+      given-names: Longhao
+    - family-names: Wang
+      given-names: Ying-Ming
+  journal: Knowledge-Based Systems
+  year: 2027
+  start: "117277"
+  doi: 10.1016/j.knosys.2026.117277
+  url: https://doi.org/10.1016/j.knosys.2026.117277
