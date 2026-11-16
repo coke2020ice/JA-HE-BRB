@@ -1,7 +1,7 @@
 {
   "requirements.txt": "c1464465268b08c59def058189f8b2d2c4c1c687e2f1b51fe53f2371ef5301b1",
   "SOURCE_MANIFEST.json": "1739361bf0492032e6897ba1fedaca37cbb9cd537805564a36655409e51536db",
-  "README.md": "e2778b37f5740ace7fbe047d82bb4fe431c2f4e2a967248975a707f64c489e90",
+  "README.md": "4cdbd018fd9537eee4e53b934ac67f5b0e8a1c0929507477b6d6565c6b1f5515",
   ".gitignore": "13931bb9ecbcd95592979125cebe53ab7b7723b63cb868257711faa52dedf305",
   "VALIDATION.json": "66cbb1f93b7ee23041488da85e812ae0158c0ff3975a13c451a64f10e8feb41c",
   "examples/run_reference.py": "0080ce3891446fdc4265a9a4f879518896ae11b45c447a761a00e97e75ba9f02",
@@ -24,5 +24,6 @@
   "src/dlhebrb/he.py": "7dcdf5e62431d0848aace01f8aecbdc032855ab961e304f19efbbd55f02a5261",
   "src/dlhebrb/brb.py": "e8d7c529a6967c6e6a98757bca857a251207caa7b7853738f641dd960d83c9d9",
   "src/dlhebrb/particle_joint_brb.py": "a1d42aa218efb5101ac3c6e071af6badb342b2aa542b9f7f263eab0fe0462314",
-  "src/dlhebrb/__init__.py": "2a042ba9e7f66109fd30a4df4fa0b75d3b51886232e34320cd635aba7fceb2b9"
+  "src/dlhebrb/__init__.py": "2a042ba9e7f66109fd30a4df4fa0b75d3b51886232e34320cd635aba7fceb2b9",
+  "CITATION.cff": "0a42a4c1b007ecbf292991a97d19a023c68539f88cbd90c1555e1088e5a6d2dc"
 }
