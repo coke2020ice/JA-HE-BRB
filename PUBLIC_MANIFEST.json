@@ -1,10 +1,13 @@
 {
+  "train_JA_HE_BRB.py": "74809e1c401a268ce9ef7f200e9963ce33a777003a56c0d8bbfe14b8147fe4dd",
   "requirements.txt": "c1464465268b08c59def058189f8b2d2c4c1c687e2f1b51fe53f2371ef5301b1",
   "SOURCE_MANIFEST.json": "1739361bf0492032e6897ba1fedaca37cbb9cd537805564a36655409e51536db",
-  "README.md": "4cdbd018fd9537eee4e53b934ac67f5b0e8a1c0929507477b6d6565c6b1f5515",
+  "CITATION.cff": "0a42a4c1b007ecbf292991a97d19a023c68539f88cbd90c1555e1088e5a6d2dc",
+  "README.md": "e8a627a6d23c72fe654130f29453f1d22ae8633a30235db7e694aab4dea38f19",
   ".gitignore": "13931bb9ecbcd95592979125cebe53ab7b7723b63cb868257711faa52dedf305",
   "VALIDATION.json": "66cbb1f93b7ee23041488da85e812ae0158c0ff3975a13c451a64f10e8feb41c",
   "examples/run_reference.py": "0080ce3891446fdc4265a9a4f879518896ae11b45c447a761a00e97e75ba9f02",
+  "figures/Framework.png": "7e9b2a3459a8d67e06ecb3fbdc72636cec6fd122b1eff7d3272b57403f0c63c5",
   "paper_results/tables/tab_distributed-label-direct.tex": "c3d26af697224dcaed1cdb8a58a703480f56d5e6a808bbc37ea983b879a9c1e3",
   "paper_results/tables/tab_experimental-settings.tex": "d2dce9178632ee8d926012808ac253435a29614387c79617b16189c133a5dbd1",
   "paper_results/tables/tab_ja-if-then-rules.tex": "0c5ad73f9648e753edbae89d59f92e41623bb918eb21b30298e8be4bc5842179",
@@ -24,6 +27,5 @@
   "src/dlhebrb/he.py": "7dcdf5e62431d0848aace01f8aecbdc032855ab961e304f19efbbd55f02a5261",
   "src/dlhebrb/brb.py": "e8d7c529a6967c6e6a98757bca857a251207caa7b7853738f641dd960d83c9d9",
   "src/dlhebrb/particle_joint_brb.py": "a1d42aa218efb5101ac3c6e071af6badb342b2aa542b9f7f263eab0fe0462314",
-  "src/dlhebrb/__init__.py": "2a042ba9e7f66109fd30a4df4fa0b75d3b51886232e34320cd635aba7fceb2b9",
-  "CITATION.cff": "0a42a4c1b007ecbf292991a97d19a023c68539f88cbd90c1555e1088e5a6d2dc"
+  "src/dlhebrb/__init__.py": "2a042ba9e7f66109fd30a4df4fa0b75d3b51886232e34320cd635aba7fceb2b9"
 }
