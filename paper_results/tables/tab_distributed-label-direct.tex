@@ -1,0 +1,26 @@
+\begin{table*}[!t]
+\centering
+\caption{Accuracy and macro-F1 comparison (\%).}
+\label{tab:distributed-label-direct}
+\scriptsize
+\setlength{\tabcolsep}{1.5pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccccccc}
+\toprule
+& \multicolumn{2}{c}{SPECT} & \multicolumn{2}{c}{HD} & \multicolumn{2}{c}{PIMA} & \multicolumn{2}{c}{CDC} & \multicolumn{2}{c}{BCR} & \multicolumn{2}{c}{NT} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}\cmidrule(lr){12-13}
+Method & Acc & Macro-F1 & Acc & Macro-F1 & Acc & Macro-F1 & Acc & Macro-F1 & Acc & Macro-F1 & Acc & Macro-F1 \\
+\midrule
+JA-HE-BRB & \textbf{81.66\(\pm\)5.91} & \textbf{71.74\(\pm\)8.78} & \textbf{83.70\(\pm\)4.42} & \textbf{83.35\(\pm\)4.26} & 75.26\(\pm\)3.79 & \textbf{73.16\(\pm\)5.13} & 79.21\(\pm\)0.84 & \textbf{42.52\(\pm\)0.30} & 70.68\(\pm\)9.80 & \textbf{64.28\(\pm\)12.93} & 94.42\(\pm\)4.22 & 92.31\(\pm\)5.03 \\
+HE-VFL-LR & 70.45\(\pm\)8.40 & 64.05\(\pm\)8.56 & 81.85\(\pm\)3.80 & 81.32\(\pm\)3.72 & 75.26\(\pm\)1.31 & 71.29\(\pm\)1.94 & 84.33\(\pm\)0.28 & \underline{40.20\(\pm\)1.06} & 69.96\(\pm\)6.87 & 61.55\(\pm\)8.92 & 92.56\(\pm\)5.30 & 88.36\(\pm\)8.71 \\
+HE-VFL-SVM & 70.45\(\pm\)8.40 & 63.34\(\pm\)9.53 & \underline{83.33\(\pm\)4.34} & \underline{82.82\(\pm\)4.44} & \underline{76.56\(\pm\)2.00} & 72.26\(\pm\)2.89 & 84.51\(\pm\)0.26 & 34.10\(\pm\)1.42 & 69.60\(\pm\)6.72 & 60.68\(\pm\)9.26 & 90.23\(\pm\)5.55 & 84.29\(\pm\)9.93 \\
+HE-VFL-kNN & \underline{80.94\(\pm\)7.16} & \underline{69.92\(\pm\)14.08} & 82.59\(\pm\)5.34 & 82.33\(\pm\)5.23 & 72.39\(\pm\)2.35 & 67.73\(\pm\)3.33 & 83.57\(\pm\)0.38 & 36.23\(\pm\)1.74 & 68.91\(\pm\)5.80 & 51.04\(\pm\)7.09 & 92.09\(\pm\)4.82 & 87.18\(\pm\)8.82 \\
+PIVODL & 80.15\(\pm\)1.61 & 53.21\(\pm\)12.29 & 80.74\(\pm\)5.00 & 80.11\(\pm\)4.71 & \textbf{76.82\(\pm\)1.82} & \underline{72.73\(\pm\)2.04} & 84.58\(\pm\)0.22 & 35.24\(\pm\)1.50 & 70.97\(\pm\)2.07 & 48.25\(\pm\)7.25 & \textbf{96.74\(\pm\)2.65} & \textbf{95.08\(\pm\)4.03} \\
+GDP-XGB & 79.40\(\pm\)0.21 & 50.98\(\pm\)9.53 & 81.11\(\pm\)4.79 & 80.60\(\pm\)4.48 & 75.78\(\pm\)2.27 & 71.43\(\pm\)2.77 & 84.54\(\pm\)0.22 & 35.29\(\pm\)1.36 & \underline{72.73\(\pm\)1.97} & 52.66\(\pm\)8.19 & \underline{96.28\(\pm\)2.08} & \underline{94.36\(\pm\)3.16} \\
+LDP-XGB & 79.78\(\pm\)2.04 & 52.87\(\pm\)11.91 & 82.22\(\pm\)2.48 & 81.64\(\pm\)2.45 & 75.52\(\pm\)1.35 & 70.77\(\pm\)1.62 & \underline{84.60\(\pm\)0.28} & 35.33\(\pm\)1.81 & 70.63\(\pm\)1.91 & 48.16\(\pm\)6.47 & \textbf{96.74\(\pm\)2.65} & \textbf{95.08\(\pm\)4.03} \\
+EVFeX & 80.15\(\pm\)1.08 & 53.48\(\pm\)12.97 & 80.74\(\pm\)2.11 & 80.02\(\pm\)2.67 & 76.43\(\pm\)2.56 & 72.17\(\pm\)3.30 & \textbf{84.77\(\pm\)0.33} & 37.16\(\pm\)0.71 & \textbf{74.48\(\pm\)5.00} & \underline{63.21\(\pm\)7.90} & 93.49\(\pm\)3.03 & 90.93\(\pm\)3.91 \\
+AnonGBDT & 65.19\(\pm\)7.25 & 59.97\(\pm\)5.28 & 71.48\(\pm\)3.84 & 69.08\(\pm\)5.29 & 73.04\(\pm\)2.21 & 69.47\(\pm\)2.52 & 84.25\(\pm\)0.18 & 31.86\(\pm\)1.39 & 67.12\(\pm\)6.20 & 56.28\(\pm\)6.48 & 85.12\(\pm\)3.53 & 78.35\(\pm\)4.90 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

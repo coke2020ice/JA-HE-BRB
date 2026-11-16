@@ -1,0 +1,18 @@
+{
+  "source_head": "65befa69af65be119e2f228238d41e59238ce2a9",
+  "note": "Copied from working tree, including untracked particle module; hashes identify actual files. Package initializer simplified.",
+  "files": [
+    {
+      "source": "src/dlhebrb/brb.py",
+      "sha256": "e8d7c529a6967c6e6a98757bca857a251207caa7b7853738f641dd960d83c9d9"
+    },
+    {
+      "source": "src/dlhebrb/he.py",
+      "sha256": "7dcdf5e62431d0848aace01f8aecbdc032855ab961e304f19efbbd55f02a5261"
+    },
+    {
+      "source": "src/dlhebrb/particle_joint_brb.py",
+      "sha256": "a1d42aa218efb5101ac3c6e071af6badb342b2aa542b9f7f263eab0fe0462314"
+    }
+  ]
+}

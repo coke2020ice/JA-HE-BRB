@@ -1,0 +1,31 @@
+\begin{table*}[!t]
+\caption{Balanced accuracy and G-Mean comparison (\%).}
+\label{tab:additional-class-balanced}
+\centering
+\scriptsize
+\setlength{\tabcolsep}{1.5pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccccccc}
+\toprule
+ & \multicolumn{2}{c}{SPECT} & \multicolumn{2}{c}{HD} & \multicolumn{2}{c}{PIMA} & \multicolumn{2}{c}{CDC} & \multicolumn{2}{c}{BCR} & \multicolumn{2}{c}{NT}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}\cmidrule(lr){12-13}
+Method & BA & G-Mean & BA & G-Mean & BA & G-Mean & BA & G-Mean & BA & G-Mean & BA & G-Mean\\
+\midrule
+JA-HE-BRB & \textbf{74.39\(\pm\)7.86} & \textbf{72.71\(\pm\)9.69} & 80.75\(\pm\)4.86 & 80.31\(\pm\)4.66 & 70.16\(\pm\)3.75 & \textbf{69.63\(\pm\)4.38} & 48.75\(\pm\)2.43 & \textbf{43.08\(\pm\)5.15} & \underline{60.58\(\pm\)11.00} & \textbf{56.06\(\pm\)15.49} & \textbf{90.55\(\pm\)4.83} & \underline{89.73\(\pm\)5.41}\\
+HE-VFL-LR & \underline{71.96\(\pm\)10.36} & \underline{69.54\(\pm\)13.47} & 81.08\(\pm\)3.66 & 80.53\(\pm\)3.48 & 70.51\(\pm\)2.02 & 68.67\(\pm\)2.76 & 49.26\(\pm\)2.45 & 26.80\(\pm\)24.93 & 57.42\(\pm\)5.90 & \underline{54.47\(\pm\)4.74} & 78.25\(\pm\)14.79 & 73.66\(\pm\)19.64\\
+HE-VFL-SVM & 71.28\(\pm\)11.72 & 67.89\(\pm\)16.87 & \textbf{82.58\(\pm\)4.56} & \underline{82.04\(\pm\)4.61} & \underline{71.26\(\pm\)2.94} & 68.95\(\pm\)3.87 & 49.81\(\pm\)1.47 & 41.19\(\pm\)3.49 & 57.33\(\pm\)5.37 & 53.88\(\pm\)4.98 & 75.24\(\pm\)12.47 & 70.55\(\pm\)17.09\\
+HE-VFL-kNN & 71.83\(\pm\)14.13 & 66.66\(\pm\)22.88 & \underline{82.25\(\pm\)4.96} & \textbf{82.08\(\pm\)4.83} & 67.25\(\pm\)1.49 & 65.01\(\pm\)2.03 & 41.92\(\pm\)4.74 & 39.05\(\pm\)6.96 & 56.56\(\pm\)9.35 & 44.48\(\pm\)15.02 & 84.44\(\pm\)13.08 & 82.74\(\pm\)15.01\\
+PIVODL & 55.84\(\pm\)8.05 & 23.24\(\pm\)31.83 & 79.83\(\pm\)4.30 & 79.04\(\pm\)3.78 & \textbf{71.72\(\pm\)2.05} & \underline{69.60\(\pm\)2.60} & \underline{50.62\(\pm\)1.52} & 41.36\(\pm\)5.54 & 52.22\(\pm\)6.55 & 18.46\(\pm\)25.81 & 88.25\(\pm\)4.36 & 86.87\(\pm\)5.54\\
+GDP-XGB & 54.57\(\pm\)6.42 & 20.92\(\pm\)28.86 & 80.52\(\pm\)3.53 & 79.85\(\pm\)3.12 & 71.04\(\pm\)2.03 & 68.73\(\pm\)2.83 & 50.07\(\pm\)1.32 & 38.91\(\pm\)5.57 & 56.66\(\pm\)9.50 & 31.83\(\pm\)30.29 & 88.81\(\pm\)4.75 & 87.43\(\pm\)5.98\\
+LDP-XGB & 55.48\(\pm\)7.55 & 22.47\(\pm\)30.84 & 80.71\(\pm\)2.78 & 80.05\(\pm\)2.37 & 70.38\(\pm\)0.95 & 67.79\(\pm\)1.62 & \textbf{51.09\(\pm\)1.68} & 42.05\(\pm\)6.23 & 53.86\(\pm\)7.56 & 26.60\(\pm\)25.76 & 89.03\(\pm\)4.98 & 87.65\(\pm\)6.22\\
+EVFeX & 56.54\(\pm\)9.66 & 24.08\(\pm\)33.61 & 80.00\(\pm\)2.67 & 79.05\(\pm\)3.82 & 71.18\(\pm\)3.16 & 68.89\(\pm\)4.05 & 48.39\(\pm\)2.05 & \underline{42.80\(\pm\)4.49} & \textbf{62.48\(\pm\)6.52} & 54.35\(\pm\)10.27 & \underline{90.41\(\pm\)3.25} & \textbf{89.81\(\pm\)3.52} \\
+AnonGBDT & 67.97\(\pm\)5.92 & 66.79\(\pm\)5.23 & 69.50\(\pm\)4.46 & 66.38\(\pm\)7.10 & 69.08\(\pm\)2.52 & 67.71\(\pm\)3.02 & 40.16\(\pm\)5.61 & 16.80\(\pm\)23.02 & 56.58\(\pm\)5.46 & 49.00\(\pm\)10.04 & 81.56\(\pm\)5.18 & 80.57\(\pm\)5.49 \\
+\bottomrule
+\end{tabular}%
+}
+\par\vspace{2pt}
+\begin{minipage}{\textwidth}
+\scriptsize\raggedright
+\textit{Note.} Means and standard deviations are calculated across five outer folds, using ten runs per fold except for CDC, EVFeX and AnonGBDT (one run). CDC results use additional validation and class-balancing settings and are exploratory because outer-fold results had been examined during development and tuning budgets differed across methods.
+\end{minipage}
+\end{table*}

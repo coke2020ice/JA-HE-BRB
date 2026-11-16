@@ -1,0 +1,11 @@
+{
+  "python": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.3.1-arm64-arm-64bit",
+  "numpy": "2.0.2",
+  "scipy": "1.13.1",
+  "scikit-learn": "1.6.1",
+  "command": "PYTHONPATH=src python3 examples/run_reference.py",
+  "exit_code": 0,
+  "observed_accuracy": 0.8,
+  "scope": "Synthetic smoke run only; pinned dependency clean-install not tested; paper reproduction not verified."
+}
