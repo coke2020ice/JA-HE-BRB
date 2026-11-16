@@ -1,6 +1,29 @@
 # JA-HE-BRB
 
-Code companion for **Interpretable and Protected Joint-Antecedent Belief-Rule Learning for Distributed-Label Vertical Federated Learning**. The authors report that the paper has been published; final bibliographic details and DOI await confirmation.
+Code companion for **Interpretable and privacy-preserving joint-antecedent belief rule learning in vertical federated learning with distributed labels**.
+
+**Ziqian Lin, Longhao Yang, Ying-Ming Wang**  
+*Knowledge-Based Systems*, article 117277. Scheduled issue date: 10 January 2027.
+
+[Paper on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0950705126020034) · [DOI: 10.1016/j.knosys.2026.117277](https://doi.org/10.1016/j.knosys.2026.117277)
+
+## Abstract
+
+Vertical federated learning (VFL) enables institutions holding different attributes of aligned entities to train a joint model without sharing raw records. Existing VFL methods exchange model-dependent intermediate information and often assume a single label-holding party, offering limited support for transparent and traceable rule-based reasoning. Conventional belief rule bases (BRBs) generally require centrally available antecedent attributes and supervision. This paper proposes a joint-antecedent belief rule base protected by homomorphic encryption (JA-HE-BRB) for distributed-label VFL. It decomposes each complete joint antecedent into aligned client-local referential-value blocks and learns the locally retained antecedent referential values through label-independent distributed particle search with bounded triangular mismatches. Paillier encryption protects the aggregation of local mismatches and supervision contributions. Complete joint antecedents with compatible consequent belief distributions are synthesized into belief rules with alternative antecedents; the best-matching antecedent alternative represents each rule before the activated belief rules are aggregated using the evidential reasoning (ER) approach. On six public medical datasets, JA-HE-BRB shows competitive accuracy, macro-F1, balanced accuracy and G-Mean. It achieves the highest mean macro-F1 on five datasets, the highest balanced accuracy and G-Mean on SPECT, and the highest balanced accuracy on New-Thyroid. Robustness and communication-cost analyses assess stability and overhead, while encrypted tests confirm numerical consistency. In the New-Thyroid case, removing the strongest supporting rule reduces the normal-class belief from 0.798 by 0.126, demonstrating inspectable decision evidence.
+
+## Citation
+
+```bibtex
+@article{lin2027jahebrb,
+  title = {Interpretable and privacy-preserving joint-antecedent belief rule learning in vertical federated learning with distributed labels},
+  author = {Lin, Ziqian and Yang, Longhao and Wang, Ying-Ming},
+  journal = {Knowledge-Based Systems},
+  year = {2027},
+  pages = {117277},
+  doi = {10.1016/j.knosys.2026.117277},
+  url = {https://doi.org/10.1016/j.knosys.2026.117277}
+}
+```
 
 ## Run
 
